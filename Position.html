@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recruitment</title>
+    <link href="pos.css" rel="Stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="2.png">
+</head>
+<body>
+	<header>
+		<h1>Recruitment</h1>
+	</header>
+	<section>
+		<form>
+			<h1>Add your data</h1>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+            <label for="discord">Discord Name Ex: Dol#1111</label>
+            <input type="text" id="Discord" name="Discord" required>
+			<label for="position">Position</label>
+			<select id="position" name="position" required>
+				<option value="">Select Position</option>
+				<option value="driver">Supporter</option>
+				<option value="admin">Modreator</option>
+				<option value="developer">Developer</option>
+				<option value="designer">Designer</option>
+			</select>
+			<label for="message">Message</label>
+			<textarea id="message" name="message" required></textarea>
+			<button type="submit">Apply</button>
+		</form>
+	</section>
+</body>
+</html>
